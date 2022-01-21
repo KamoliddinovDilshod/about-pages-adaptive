@@ -1,0 +1,464 @@
+.quality__box{
+  position: relative;
+  flex-direction: row-reverse;
+  background-image: url("/images/quality_bck.jpg");
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding: 100px 85px 180px;
+}
+
+.quality__imag{
+  position: absolute;
+  top: -90px;
+  right: 85px;
+  border-radius: 10px;
+}
+
+.quality__imags{
+  display: none;
+}
+
+.quality__imagc{
+  display: none;
+}
+
+.quality__textbox{
+  margin-right: 115px;
+}
+
+.quality__title{
+  font-family: "Fraunces" , "Verdana" , sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.quality__packet{
+  width: 540px;
+}
+
+.quality__text{
+  font-family: "Barlow" , "Verdana" , sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  opacity: 0.8;
+  margin: 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  
+  .quality__box{
+    padding: 100px 97px 180px;
+  }
+  
+  .quality__imag{
+    display: none;
+  }
+  
+  .quality__imags{
+    display: block;
+    position: absolute;
+    top: -160px;
+    left: 20%;
+    right: 20%;
+    margin: 0 auto;
+  }
+  
+  .quality__textbox{
+    margin: 0;
+  }
+  
+  .quality__title{
+    display: block;
+    font-family: "Fraunces" , "Verdana" , sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin: 0;
+    margin-bottom: 32px;
+    padding-top: 110px;
+  }
+  
+  .quality__packet{
+    width: 540px;
+    margin: 0 auto;
+  }
+  
+  .quality__text{
+    font-family: "Barlow" , "Verdana" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 700px)and (max-width: 768px){
+  .quality__box{
+    padding: 120px 25px 60px;
+    margin-bottom: 100px;
+  }
+  
+  .quality__imagc{
+    display: none;
+  }
+  
+  .quality__imags{
+    width: 85%;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: -190px;
+    left: 95px;
+  }
+  
+  .quality__title{
+    display: block;
+    font-family: "Fraunces" , "Verdana" , sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #FEFCF7;
+    margin: 0;
+    margin-bottom: 32px;
+    padding-top: 90px;
+  }
+  
+  .quality__packet{
+    width: auto;
+    margin: 0 auto;
+  }
+  
+  .quality__text{
+    font-family: "Barlow" , "Verdana" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    opacity: 0.8;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 600px)and (max-width: 700px){
+  .quality__box{
+    padding: 95px 25px 60px;
+    margin-bottom: 100px;
+  }
+  
+  .quality__imagc{
+    display: none;
+  }
+  
+  .quality__imags{
+    width: 85%;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: -170px;
+    left: 45px;
+  }
+  
+  .quality__title{
+    display: block;
+    font-family: "Fraunces" , "Verdana" , sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #FEFCF7;
+    margin: 0;
+    margin-bottom: 32px;
+    padding-top: 90px;
+  }
+  
+  .quality__packet{
+    width: auto;
+    margin: 0 auto;
+  }
+  
+  .quality__text{
+    font-family: "Barlow" , "Verdana" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    opacity: 0.8;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 500px)and (max-width: 600px){
+  .quality__box{
+    padding: 30px 25px 60px;
+    margin-bottom: 100px;
+  }
+  
+  .quality__imagc{
+    display: none;
+  }
+  
+  .quality__imags{
+    width: 85%;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: -170px;
+    left: 45px;
+  }
+  
+  .quality__title{
+    display: block;
+    font-family: "Fraunces" , "Verdana" , sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #FEFCF7;
+    margin: 0;
+    margin-bottom: 32px;
+    padding-top: 90px;
+  }
+  
+  .quality__packet{
+    width: auto;
+    margin: 0 auto;
+  }
+  
+  .quality__text{
+    font-family: "Barlow" , "Verdana" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    opacity: 0.8;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 400px)and (max-width: 500px){
+  .quality__box{
+    padding: 30px 25px 60px;
+    margin-bottom: 100px;
+  }
+  
+  .quality__imags{
+    display: none;
+  }
+  
+  .quality__imagc{
+    width: 80%;
+    height: 145px;
+    display: block;
+    position: absolute;
+    top: -70px;
+    left: 45px;
+    
+  }
+  
+  .quality__title{
+    display: block;
+    font-family: "Fraunces" , "Verdana" , sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #FEFCF7;
+    margin: 0;
+    margin-bottom: 32px;
+    padding-top: 80px;
+  }
+  
+  .quality__packet{
+    width: auto;
+    margin: 0 auto;
+  }
+  
+  .quality__text{
+    font-family: "Barlow" , "Verdana" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    opacity: 0.8;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 336px)and (max-width: 400px) {
+  
+  .quality__box{
+    padding: 30px 25px 60px;
+    margin-bottom: 100px;
+  }
+  
+  .quality__imags{
+    display: none;
+  }
+  
+  .quality__imagc{
+    width: 80%;
+    height: 145px;
+    display: block;
+    position: absolute;
+    top: -70px;
+    left: 45px;
+  }
+  
+  .quality__title{
+    display: block;
+    font-family: "Fraunces" , "Verdana" , sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #FEFCF7;
+    margin: 0;
+    margin-bottom: 32px;
+    padding-top: 80px;
+  }
+  
+  .quality__packet{
+    width: auto;
+    margin: 0 auto;
+  }
+  
+  .quality__text{
+    font-family: "Barlow" , "Verdana" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    opacity: 0.8;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 321px)and (max-width: 335px) {
+  
+  .quality__box{
+    padding: 30px 25px 60px;
+    margin-bottom: 100px;
+  }
+  
+  .quality__imags{
+    display: none;
+  }
+  
+  .quality__imagc{
+    display: block;
+    position: absolute;
+    top: -70px;
+    margin: 0 auto;
+  }
+  
+  .quality__title{
+    display: block;
+    font-family: "Fraunces" , "Verdana" , sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #FEFCF7;
+    margin: 0;
+    margin-bottom: 32px;
+    padding-top: 80px;
+  }
+  
+  .quality__packet{
+    width: auto;
+    margin: 0 auto;
+  }
+  
+  .quality__text{
+    font-family: "Barlow" , "Verdana" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    opacity: 0.8;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 320px){
+  
+  .quality__box{
+    padding: 30px 25px 60px;
+    margin-bottom: 100px;
+  }
+  
+  .quality__imags{
+    display: none;
+  }
+  
+  .quality__imagc{
+    display: block;
+    position: absolute;
+    top: -70px;
+  }
+  
+  .quality__title{
+    display: block;
+    font-family: "Fraunces" , "Verdana" , sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #FEFCF7;
+    margin: 0;
+    margin-bottom: 32px;
+    padding-top: 80px;
+  }
+  
+  .quality__packet{
+    width: auto;
+    margin: 0 auto;
+  }
+  
+  .quality__text{
+    font-family: "Barlow" , "Verdana" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    opacity: 0.8;
+    margin: 0;
+  }
+}

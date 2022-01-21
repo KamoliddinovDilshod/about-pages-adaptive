@@ -1,0 +1,264 @@
+.commitment{
+  margin-bottom: 180px;
+  padding-top: 135px;
+  padding-bottom: 158px;
+}
+
+.commitment__box{
+  display: flex;
+  align-items: center;
+  padding: 0 86px;
+}
+
+.commitment__imag{
+  border-radius: 10px;
+}
+
+.commitment__trunk{
+  margin-left: 125px;
+}
+
+.commitment__title{
+  font-family: "Fraunces" , "Verdana" , sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+  margin: 0;
+  margin-bottom:32px;
+}
+
+.commitment__textbox{
+  width: 540px;
+}
+
+.commitment__text{
+  font-family: "Barlow" , "Verdana" , sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  opacity: 0.8;
+  margin: 0;
+}
+
+@media only screen and (min-width: 951px) and (max-width :1197px){
+  .commitment__box{
+    padding: 0;
+  }
+  
+  .commitment__textbox{
+    width: 416px;
+  }
+
+  .commitment__imag{
+    width: auto;
+  }
+  
+  .commitment__trunk{
+    width: 416px;
+    margin-left: 110px;
+  }
+  
+  .commitment__title{
+    font-size: 38px;
+  }
+  
+  .commitment__text{
+    line-height: 23px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 950px){
+  .commitment__box{
+    padding: 0;
+  }
+  
+  .commitment__textbox{
+    width: 339px;
+  }
+
+  .commitment__imag{
+    width: auto;
+  }
+  
+  .commitment__trunk{
+    width: 339px;
+    margin-left: 100px;
+  }
+  
+  .commitment__title{
+    font-size: 38px;
+  }
+  
+  .commitment__text{
+    line-height: 23px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 850px){
+  .commitment__box{
+    padding: 0;
+  }
+  
+  .commitment__textbox{
+    width: 339px;
+  }
+  
+  .commitment__imag{
+    width: 380px;
+  }
+  
+  .commitment__trunk{
+    width: 339px;
+    margin-left: auto;
+  }
+  
+  .commitment__title{
+    font-size: 33px;
+  }
+  
+  .commitment__text{
+    font-size: 16px;
+  }
+}
+  
+  @media only screen and (min-width: 501px)  and (max-width: 767px){
+    
+    .commitment__box{
+      display: block;
+    }
+    
+    .commitment__imag{
+      width: 100%;
+    }
+    
+    .commitment__trunk{
+      width: auto;
+      margin: 0 auto;
+    }
+    
+    .commitment__title{
+      font-family: "Fraunces" , "Verdana" , sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 38px;
+      line-height: 48px;
+      color: #333D4B;
+      margin: 0;
+      margin-bottom:32px;
+      text-align: center;
+    }
+    
+    .commitment__textbox{
+      width: auto;
+      margin: 0 auto;
+    }
+    
+    .commitment__text {
+      font-family: "Barlow" , "Verdana" , sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 26px;
+      color: #333D4B;
+      opacity: 0.8;
+      margin: 0;
+      text-align: center;
+    }
+  }  
+  
+  
+  @media only screen and (min-width: 321px) and (max-width: 500px){
+    
+    .commitment__box{
+      display: block;
+    }
+    
+    .commitment__imag{
+      width: 100%;
+    }
+    
+    .commitment__trunk{
+      width: auto;
+      margin-left: 0;
+      margin: 0 auto;
+    }
+    
+    .commitment__title{
+      font-family: "Fraunces" , "Verdana" , sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 36px;
+      line-height: 48px;
+      color: #333D4B;
+      margin: 0;
+      margin-bottom:32px;
+      text-align: center;
+    }
+    
+    .commitment__textbox{
+      width: auto;
+      margin: 0 auto;
+    }
+    
+    .commitment__text {
+      font-family: "Barlow" , "Verdana" , sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 26px;
+      color: #333D4B;
+      opacity: 0.8;
+      margin: 0;
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 320px){
+    .commitment__box{
+      display: block;
+    }
+    
+    .commitment__imag{
+      width: 100%;
+    }
+    
+    .commitment__trunk{
+      width: auto;
+      margin-left: 0;
+    }
+    
+    .commitment__title{
+      font-family: "Fraunces" , "Verdana" , sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 32px;
+      line-height: 48px;
+      color: #333D4B;
+      margin: 0;
+      margin-bottom:32px;
+      text-align: center;
+    }
+    
+    .commitment__textbox{
+      width: auto;
+      margin: 0 auto;
+    }
+    
+    .commitment__text {
+      font-family: "Barlow" , "Verdana" , sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 26px;
+      color: #333D4B;
+      opacity: 0.8;
+      margin: 0;
+      text-align: center;
+    }
+  }
