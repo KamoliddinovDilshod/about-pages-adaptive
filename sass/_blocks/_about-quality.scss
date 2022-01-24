@@ -4,7 +4,8 @@
   background-image: url("/images/quality_bck.jpg");
   background-repeat: no-repeat;
   border-radius: 10px;
-  padding: 100px 85px 180px;
+  margin-bottom: 150px;
+  padding: 100px 85px 160px;
 }
 
 .quality__imag{
@@ -55,7 +56,8 @@
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   
   .quality__box{
-    padding: 100px 97px 180px;
+    margin-bottom: 150px;
+    padding: 100px 97px 55px;
   }
   
   .quality__imag{
@@ -69,6 +71,10 @@
     left: 20%;
     right: 20%;
     margin: 0 auto;
+  }
+
+  .quality__imagc{
+    display: none;
   }
   
   .quality__textbox{
@@ -124,6 +130,14 @@
     position: absolute;
     top: -190px;
     left: 95px;
+  }
+
+  .quality__imag{
+    display: none;
+  }
+
+  .quality__imagc{
+    display: none;
   }
   
   .quality__title{
@@ -417,8 +431,12 @@
 @media only screen and (max-width: 320px){
   
   .quality__box{
-    padding: 30px 25px 60px;
+    padding: 30px 25px 50px;
     margin-bottom: 100px;
+  }
+
+  .quality__imag{
+    display: none;
   }
   
   .quality__imags{
@@ -440,7 +458,7 @@
     line-height: 28px;
     text-align: center;
     color: #FEFCF7;
-    margin: 0;
+    margin: 0 auto;
     margin-bottom: 32px;
     padding-top: 80px;
   }
@@ -448,6 +466,10 @@
   .quality__packet{
     width: auto;
     margin: 0 auto;
+  }
+
+  .quality__textbox{
+    margin: 0;
   }
   
   .quality__text{
