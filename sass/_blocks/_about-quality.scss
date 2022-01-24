@@ -153,6 +153,10 @@
     margin-bottom: 32px;
     padding-top: 90px;
   }
+
+  .quality__textbox{
+    margin: 0;
+  }
   
   .quality__packet{
     width: auto;
@@ -178,11 +182,15 @@
     margin-bottom: 100px;
   }
   
-  .quality__imagc{
+  .quality__imags{
+    display: none;
+  }
+
+  .quality__imag{
     display: none;
   }
   
-  .quality__imags{
+  .quality__imagc{
     width: 85%;
     height: auto;
     display: block;
@@ -203,6 +211,10 @@
     margin: 0;
     margin-bottom: 32px;
     padding-top: 90px;
+  }
+
+  .quality__textbox{
+    margin: 0;
   }
   
   .quality__packet{
@@ -223,23 +235,27 @@
   }
 }
 
-@media only screen and (min-width: 500px)and (max-width: 600px){
+@media only screen and (min-width: 501px)and (max-width: 600px){
   .quality__box{
     padding: 30px 25px 60px;
     margin-bottom: 100px;
   }
   
-  .quality__imagc{
+  .quality__imag{
+    display: none;
+  }
+
+  .quality__imags{
     display: none;
   }
   
-  .quality__imags{
+  .quality__imagc{
     width: 85%;
     height: auto;
     display: block;
     position: absolute;
     top: -170px;
-    left: 45px;
+    left: 35px;
   }
   
   .quality__title{
@@ -254,6 +270,10 @@
     margin: 0;
     margin-bottom: 32px;
     padding-top: 90px;
+  }
+
+  .quality__textbox{
+    margin: 0;
   }
   
   .quality__packet{
@@ -280,6 +300,10 @@
     margin-bottom: 100px;
   }
   
+  .quality__imag{
+    display: none;
+  }
+
   .quality__imags{
     display: none;
   }
@@ -291,7 +315,10 @@
     position: absolute;
     top: -70px;
     left: 45px;
-    
+  }
+
+  .quality__textbox{
+    margin: 0;
   }
   
   .quality__title{
@@ -336,6 +363,10 @@
   .quality__imags{
     display: none;
   }
+
+  .quality__imag{
+    display: none;
+  }
   
   .quality__imagc{
     width: 80%;
@@ -364,6 +395,10 @@
     width: auto;
     margin: 0 auto;
   }
+
+  .quality__textbox{
+    margin: 0;
+  }
   
   .quality__text{
     font-family: "Barlow" , "Verdana" , sans-serif;
@@ -386,6 +421,10 @@
   }
   
   .quality__imags{
+    display: none;
+  }
+
+  .quality__imag{
     display: none;
   }
   
@@ -413,6 +452,10 @@
   .quality__packet{
     width: auto;
     margin: 0 auto;
+  }
+
+  .quality__textbox{
+    margin: 0;
   }
   
   .quality__text{
